@@ -62,7 +62,6 @@ button {
 .contact{
     color: var(--c-text-primary);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -83,13 +82,12 @@ button {
     font-size: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .button-pr{
     color: var(--c-primary-light);
     background-color: var(--c-logo);
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -126,12 +124,15 @@ button {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     text-transform: capitalize;
 }
 
-.section-third-h{
+.section-third-li{
     background-color: var(--c-background-light);
+}
+
+.section-third-h{
+    color: var(--c-primary);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -139,15 +140,14 @@ button {
 }
 
 .section-third-p{
-    background-color: var(--c-background-light);
+    color: var(--c-text-primary);
     font-size: 16;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .section-end-title{
-    color: var(--c-primary)
+    color: var(--c-primary);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -165,7 +165,7 @@ button {
 }
 
 .section-end-p{
-    color: var(--c-text-primary)
+    color: var(--c-text-primary);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
