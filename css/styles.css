@@ -5,6 +5,7 @@
     --c-primary: #2e2f42;
     --c-primary-light: #ffffff;
     --c-second: #F4F4FD;
+    --c-cont-but: #404bbf;
     --c-logo: #4D5AE5;
     
 }
@@ -50,26 +51,37 @@ button {
     letter-spacing: 0.02em;
 }
 
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--c-cont-but)
+}
+
+.contact-information{
+    font-style: normal;
+}
 .contact{
     color: var(--c-text-primary);
     font-size: 16px;
     font-weight: 400;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
+.contact:hover,
+.contact:focus{
+    color: var(--c-cont-but);
+}
+
 .hero-section{
     background-color: var(--c-background-dark);
-    text-align: center;
 
 }
 
 .hero-title{
     color: var(--c-primary-light);
     font-size: 56px;
+    font-size: 700;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
 }
 
@@ -81,13 +93,13 @@ button {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    text-align: center;
+    cursor: pointer;
     letter-spacing: 0.04em;
 }
 
 .button-pr:hover,
-.button-pr:active{
-    background-color: #404bbf;
+.button-pr:focus{
+    background-color: var(--c-cont-but);
 }
 
 .section-second-h{
@@ -105,10 +117,11 @@ button {
     letter-spacing: 0.02em;
 }
 .section-third{
-    background-color: var(--c-footer);
+    background-color: var(--c-second);
 }
 
 .section-third-title{
+    color: var(--c-primary)
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -122,20 +135,19 @@ button {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
 }
 
 .section-third-p{
     background-color: var(--c-background-light);
-    font-size: 16
+    font-size: 16;
     font-weight: 400;
     line-height: 1.5;
-    text-align: center;
     letter-spacing: 0.02em;
 }
 
 .section-end-title{
+    color: var(--c-primary)
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -153,8 +165,8 @@ button {
 }
 
 .section-end-p{
+    color: var(--c-text-primary)
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
