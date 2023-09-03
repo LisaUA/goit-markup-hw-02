@@ -109,6 +109,7 @@ button {
 }
 
 .section-second-p{
+    color: var(--c-text-primary);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -132,6 +133,20 @@ button {
     background-color: var(--c-background-light);
 }
 
+.section-third-h {
+    color: var(--c-primary)
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-third-p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .section-end-title{
     color: var(--c-primary);
