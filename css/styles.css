@@ -119,11 +119,12 @@ button {
 }
 
 .section-third-title{
-    color: var(--c-primary)
+    color: var(--c-primary);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
 }
 
@@ -133,15 +134,15 @@ button {
 
 .section-third-h{
     color: var(--c-primary);
-    font-size: 20px;
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
 .section-third-p{
     color: var(--c-text-primary);
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -158,8 +159,8 @@ button {
 
 .section-end-h{
     color: var(--c-primary);
-    font-size: 20px;
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
